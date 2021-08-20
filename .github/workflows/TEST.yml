@@ -1,4 +1,4 @@
-name: RDP-FREE
+name: Test-Rdp
 
 on: workflow_dispatch
 
