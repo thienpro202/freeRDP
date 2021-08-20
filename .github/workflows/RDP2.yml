@@ -30,9 +30,9 @@ jobs:
         copy wallpaper.bat D:\a\wallpaper.bat
     - name: Creating Tunnel.
       run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp 3389"'
-    - name: Connecting to your RDP.
+    - name: Connect Ip & password.
       run: cmd /c start.bat
-    - name: RDP is ready!
+    - name: RDP Selesai!.
       run: | 
         Invoke-WebRequest https://github.com/Riripii/freeRDP/raw/main/loop.ps1 -OutFile loop.ps1
         ./loop.ps1
