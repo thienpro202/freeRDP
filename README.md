@@ -12,6 +12,12 @@
 4. Salin token
 ```
 
+# SECRET INFO
+```
+v 1 - 3   :  NGROK_AUTH_TOKEN
+v 4 - 9   :  CONNECT_TOKEN
+```
+
 # APK RDP
 ```
 download apk :
